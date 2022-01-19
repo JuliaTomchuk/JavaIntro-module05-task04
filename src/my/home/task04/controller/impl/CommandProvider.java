@@ -5,7 +5,7 @@ import java.util.Map;
 
 import my.home.task04.controller.Command;
 
-public class CommandProvider {
+public final class CommandProvider {
 
 	private Map<String, Command> commands = new HashMap<>();
 
